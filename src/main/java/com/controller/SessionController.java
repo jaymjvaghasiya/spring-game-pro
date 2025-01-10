@@ -37,6 +37,11 @@ public class SessionController {
 	@Autowired
 	MailerService mailerService;
 	
+	@GetMapping("/")
+	public String getLoginPage2() {
+		return "login";
+	}
+	
 	@GetMapping("login")
 	public String getLoginPage() {
 		return "login";
