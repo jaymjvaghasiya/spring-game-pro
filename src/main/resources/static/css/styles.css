@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/* .login-form-outer, */ .signup-form-outer, .forgetpass-form-outer,
+	.reset-form-outer {
+	/* 	border: 1px solid black; */
+	margin: auto;
+	margin-top: 0.5rem;
+}
+
+.errorClass {
+	/* 	border: 1px solid black; */
+	color: red;
+	width: fit-content;
+	margin: auto;
+	margin-top: 0.7rem
+}
+
+.otpbox {
+	/* 	border: 1px solid black; */
+	gap: 1rem;
+}
+
+.infoClass {
+	color: green;
+	width: fit-content;
+	margin: auto;
+	margin-top: 0.7rem
+}
+
+.resend-otp-btn {
+	all: unset;
+	color: blue;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.resend-otp-btn:hover {
+	color: darkblue;
+}
+
+.login-design {
+	width: 100%;
+	position: relative;
+	display: flex;
+	align-items: center;
+	border: 1px solid black; 
+}
+
+.sidebar-img {
+	width: 50%;
+	overflow: hidden;
+}
+
+.sidebar-img img {
+	height: 30rem;
+}
